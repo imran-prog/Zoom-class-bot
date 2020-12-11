@@ -16,6 +16,13 @@ class mouse_control:
 
     @staticmethod
     def opening_zoom_window():
+        '''
+        This Function has the followings steps:
+        1. Minimize all the windows which are opened
+        2. Goto the search bar in bottom left side in windows 10.
+        3. The cursor will click on saerch bar and then search for Zoom app
+        4. And the last step is to open the app.
+        '''
         keyboard.press_and_release('win + m')
         pyautogui.moveTo(181, 1023, duration=1)
         time.sleep(2)
@@ -30,6 +37,9 @@ class mouse_control:
         time.sleep(8)
 
     def joining_class(self):
+        '''
+        
+        '''
         time.sleep(2)
         pyautogui.moveTo(417, 444, duration=1)
         pyautogui.click(417, 444)
