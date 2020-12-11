@@ -40,11 +40,13 @@ teacher_ids = [
     '252 445 6829'
     ]
 
+password = ['1234']
+
 while (True):
     id_num = ""
     time_set()
     if (id_num != ""):
-        zoom_control = mouse_control(id_num)
+        zoom_control = mouse_control(id_num, password)
         time.sleep(2)
         zoom_control.opening_zoom_window()
         zoom_control.joining_class()
