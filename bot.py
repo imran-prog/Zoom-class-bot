@@ -63,7 +63,7 @@ class mouse_control:
     @staticmethod
     def joining_audio():
         '''
-        This function is made to joi the audio, but this function,
+        This function is made to join the audio, but this function,
         is not joining the audio...
         '''
         time.sleep(30)
